@@ -268,20 +268,86 @@ footer {
     width: 100%;
     height: auto;
     margin-top: 200px;
-    position: relative;
+    overflow: auto;
+    padding: 0px 100px;
+
 }
 
 .product-gallery {
     border: 2px solid red;
     width: 55%;
-    position: absolute;
-    left: 0px;
+    float: left;
+    margin-right: 0px;
 }
 
 .product-desc {
-    border: 2px solid blue;
     width: 45%;
-    position: absolute;
-    right: 0px;
+    float: right;
     color: #fff;
+    padding: 20px 250px 20px 80px;
+}
+
+.prod-brand, .size-title {
+    font-weight: 400;
+    font-size: 16;
+    margin-bottom: 15px;
+}
+
+.prod-complete-name {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.prod-price {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.size-btn {
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 7px 5px;
+    margin-bottom: 15px;
+}
+
+.size-btn:hover, .size-btn:active {
+    border: 2px solid #ffa000;
+}
+
+.sizes {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.add-cart-btn, .fav-btn {
+    width: 100%;
+    color: #fff;
+}
+
+.add-cart-btn {
+    background-color: #ffa000;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding: 8px 0px;
+}
+
+.fav-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 8px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fav-btn:hover {
+    border: 2px solid #ffa000;
 }
