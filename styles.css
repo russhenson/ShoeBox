@@ -210,7 +210,7 @@ footer {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-
+    padding: 0px 14px;
 }
 
 .results-title {
@@ -236,6 +236,7 @@ footer {
 
 .filter-option h6, .filter-option img {
     display: inline;
+    
 }
 
 .filter-option h6 {
@@ -248,3 +249,13 @@ footer {
     margin-top: 2px;
 }
 
+.result-products {
+    margin-top: 28px !important;
+}
+
+
+.product-cards {
+    text-align: center;
+    justify-content: center;
+    
+}
