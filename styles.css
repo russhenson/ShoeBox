@@ -183,7 +183,68 @@ footer {
 
 .brand-description {
     margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.products-container {
+    height: auto;
+    width: 80%;
+    margin: 50px auto !important;
+    
+}
+
+.filter, .filter h5{
+    height: auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 100px !important;
+} 
+
+
+.product-results {
+    height: auto;
+}   
+
+.product-results-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.results-title {
+    width: 50%;
+    margin-left: 0px !important;
+}
+
+.sort-products h5 {
+    float: right;
+}
+
+.filter-options {
+    margin-top: 40px;
 }
 
 
+.filter-option {
+    background-color: #444;
+    padding: 10px 30px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.filter-option h6, .filter-option img {
+    display: inline;
+}
+
+.filter-option h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filter-option img {
+    float: right;
+    margin-top: 2px;
+}
 
