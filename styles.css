@@ -259,3 +259,29 @@ footer {
     justify-content: center;
     
 }
+
+.product-card {
+    margin-bottom: 40px;
+}
+
+.product-div {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+.product-gallery {
+    border: 2px solid red;
+    width: 55%;
+    position: absolute;
+    left: 0px;
+}
+
+.product-desc {
+    border: 2px solid blue;
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+}
