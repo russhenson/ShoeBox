@@ -1,0 +1,25 @@
+{
+  "name": "ccapdev-mp2-shoebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russhenson/CCAPDEV-MP2-ShoeBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russhenson/CCAPDEV-MP2-ShoeBox/issues"
+  },
+  "homepage": "https://github.com/russhenson/CCAPDEV-MP2-ShoeBox#readme"
+}
