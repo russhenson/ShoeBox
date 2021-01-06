@@ -19,17 +19,17 @@ app.get('/', function(req,res){
 })
 
 //nike page
-app.get('/nike.html', function(req,res){
+app.get('/nike', function(req,res){
     res.sendFile(__dirname+"/../static/nike.html");
 })
 
 //login page
-app.get('/login.html', function(req,res){
+app.get('/login', function(req,res){
     res.sendFile(__dirname+"/../static/login.html");
 })
 
 //product page
-app.get('/product.html', function(req,res){
+app.get('/product', function(req,res){
     res.sendFile(__dirname+"/../static/product.html");
 })
 
