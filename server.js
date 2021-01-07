@@ -2,32 +2,54 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const path = require('path');
 const routes = require('./routes');
-// const hbs = require('express-handlebars');
+const hbs = require('express-handlebars');
 const app = express()
 const mongoose = require('mongoose');
 
 const port = 3000
 const hostname = "127.0.0.1";
 
-// // Firebase App (the core Firebase SDK) is always required and
-// // must be listed before other Firebase SDKs
-// const firebase = require("firebase/app");
+var blocks = {};
+var brands = ['nike','yeezy','new balance','jordan','adidas'];
+var brandIndex = 0;
 
-// // Add the Firebase products that you want to use
-// require("firebase/auth");
-// require("firebase/firestore");
+app.engine('hbs', hbs({
+  defaultLayout: 'main',
+  extname: '.hbs',
+  layoutsDir: __dirname + '/views/layouts/',
+  partialsDir: __dirname + '/views/partials/',
+  helpers: {
+      extend: function (name, context) {
+          var block = blocks[name];
+          if (!block) {
+              block = blocks[name] = [];
+          }
+
+          block.push(context.fn(this)); // for older versions of handlebars, use block.push(context(this));
+      },
+      block: function (name, options) {
+          var val = (blocks[name] || []).join('\n');
+
+          // clear the block
+          blocks[name] = [];
+          return val;
+      }
+  }
+}));
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }))
-// parse application/json
-// app.use(bodyParser.json())
+
+//add handlebars
+app.set("view engine", "hbs");
+
 // set static folder 
 app.use(express.static(path.join(__dirname, 'static')))
 
 //default route
 app.use("/", routes);
 
-connect()
+connect();
 
 // //nike page
 // app.get('/nike', function(req,res){

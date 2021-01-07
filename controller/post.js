@@ -5,51 +5,42 @@ const User = require('../model/user');
 const path = require('path');
 const document = require('html-element').document;
 
+var brands = ["nike", "yeezy", "new balance", "jordan", "adidas"];
+var brandfeatureIndex = 0;
+var brandArrivalIndex = 0;
+
+var featured=[];
+var newArrivals=[]
+var isFeatured = true;
+
 //export function called render_all which returns all items in database
-exports.render_all = function(req, res){
+exports.render_frontPage = function(req, res){
     Shoe.find({}).lean().exec(function(err, shoes){
-        console.log(shoes);
+        // console.log(shoes);
         shoes.forEach(shoe => {
-            console.log(shoe._id);
-            console.log(shoe.brand);
-            console.log(shoe.stock);
-            console.log(shoe.name);
-            console.log(shoe.price);
-
-            renderCards(shoe.brand, shoe.name, shoe.price, shoe.image)
+            // console.log(shoe._id);
+            // console.log(shoe.brand);
+            // console.log(shoe.stock);
+            // console.log(shoe.name);
+            // console.log(shoe.price);
+            shoe.price = commaSeparator(shoe.price);
+            if(shoe.brand == brands[brandfeatureIndex]){
+                featured.push(shoe);
+                // console.log(featured);
+                brandfeatureIndex++;
+                isFeatured = true;
+            }
+            // if(!isFeatured){
+            //     newArrivals.push(shoe);
+            // }
+            // shoe.price = commaSeparator(shoe.price);
+            // console.log(shoe.price)
         });
+        // res.sendFile(path.join(__dirname + '/../static/main.html'));
+        // console.log(featured[0].brand)
+        console.log(featured[0].image[0]);
+        res.render("index.hbs", {product: featured});
     })
-    res.sendFile(path.join(__dirname + '/../static/main.html'));
-}
-
-function renderCards(brand, name, price, image){
-    var productCardDiv = document.createElement("div");
-    var productCardImg = document.createElement("img");
-
-    var productCardBrand = document.createElement("h6");
-    var productCardName = document.createElement("h5");
-    var productCardPrice = document.createElement("h5");
-
-    var images=[image];
-
-    productCardBrand.innerHTML = brand;
-    productCardName.innerHTML = name;
-    productCardPrice.innerHTML = commaSeparator(price) + "PHP"
-    productCardImg.setAttribute("src", images[0]);
-    productCardImg.setAttribute("alt", name);
-
-    productCardDiv.className = "product-card";
-    productCardImg.setAttribute("class", "product-img");
-    productCardBrand.className = "product-brand";
-    productCardName.className = "product-name";
-    productCardPrice.className = "product-price text-uppercase";
-
-    productCardDiv.appendChild(productCardImg);
-    productCardDiv.appendChild(productCardBrand);
-    productCardDiv.appendChild(productCardName);
-    productCardDiv.appendChild(productCardPrice);
-
-    // Document.getElementById("cardsDiv").appendChild(productCardDiv);
 }
 
 function commaSeparator(number){
@@ -60,5 +51,5 @@ function commaSeparator(number){
 
 //login
 exports.login_user = function(req, res){
-    
+    z
 }
