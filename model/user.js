@@ -10,11 +10,38 @@
 
 // const firebase
 
-const item = require("./item");
+// const item = require("./item");
 
-const userSchema = {
-    displayName: String,
-    username: String,
-    password: String,
-    cart: [item]
-}
+// const userSchema = {
+//     displayName: String,
+//     username: String,
+//     password: String,
+//     cart: [item]
+// }
+
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const cartItem = require('./item').schema;
+
+const userSchema = new mongoose.Schema({
+    displayName:{
+        type: String,
+        required: true
+    },
+    username:{
+        type: String,
+        required: true
+    },
+    password:{
+        type: String,
+        required: true
+    },
+    userID:{
+        type: String,
+        required: true
+    },
+    cart:[cartItem]
+})
+
+module.exports = mongoose.model('User', userSchema);
