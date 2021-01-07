@@ -1,0 +1,222 @@
+[
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 1 Zoom CMFT",
+        "price": {
+            "$numberLong": "8000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 5 Retro 'Alternate Bel-Air'",
+        "price": {
+            "$numberLong": "9000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 13 Retro 'Flint' (2020)",
+        "price": {
+            "$numberLong": "10000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 14 Retro 'Last Shot' (2011)",
+        "price": {
+            "$numberLong": "12000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan XXXV 'Sisterhood'",
+        "price": {
+            "$numberLong": "7000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan XXXV PF 'Tech Pack'",
+        "price": {
+            "$numberLong": "7000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 1 High Dior",
+        "price": {
+            "$numberLong": "350000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 1 High Travis Scott",
+        "price": {
+            "$numberLong": "70000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 1 Low Dior",
+        "price": {
+            "$numberLong": "250000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Air Jordan 1 Low Travis Scott",
+        "price": {
+            "$numberLong": "45000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan 4 Carhartt Eminem",
+        "price": {
+            "$numberLong": "850000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan 4 Manila",
+        "price": {
+            "$numberLong": "3000000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan 4 Retro Bred",
+        "price": {
+            "$numberLong": "15000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan 5 Retro Purple Grape",
+        "price": {
+            "$numberLong": "15000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan 10 Westbrook 'Class of 2006'",
+        "price": {
+            "$numberLong": "15000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan Delta",
+        "price": {
+            "$numberLong": "10000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan One Take II PF",
+        "price": {
+            "$numberLong": "10000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan Westbrook One Take PF",
+        "price": {
+            "$numberLong": "10000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "Jordan Zoom '92",
+        "price": {
+            "$numberLong": "10000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "jordan",
+        "image": [""],
+        "name": "OVO x Air Jordan 10 Retro Black",
+        "price": {
+            "$numberLong": "15000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    }
+]

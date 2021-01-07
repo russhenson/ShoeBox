@@ -1,0 +1,211 @@
+[
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Adizero Adios 4",
+        "price": {
+            "$numberLong": "5000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Breaknet Core Black",
+        "price": {
+            "$numberLong": "5000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Continental 80 Cloud White",
+        "price": {
+            "$numberLong": "5000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "D Rose 773 2020 Signal Cyan",
+        "price": {
+            "$numberLong": "7000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "D.O.N Issue 1",
+        "price": {
+            "$numberLong": "8000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Dame 4",
+        "price": {
+            "$numberLong": "8000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Duramo SL Vivid Red",
+        "price": {
+            "$numberLong": "4000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "EQT Support ADV",
+        "price": {
+            "$numberLong": "4000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Harden Vol. 4",
+        "price": {
+            "$numberLong": "8000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "HU Race NMD by Pharrell Williams",
+        "price": {
+            "$numberLong": "11000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Jonah Hill x Adidas Samba",
+        "price": {
+            "$numberLong": "7000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Stan Smith",
+        "price": {
+            "$numberLong": "4000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "NMD R1 Core Black",
+        "price": {
+            "$numberLong": "6000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Pro Model 2G Low Core Black",
+        "price": {
+            "$numberLong": "5000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Superstar",
+        "price": {
+            "$numberLong": "3000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Tubular",
+        "price": {
+            "$numberLong": "4500"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Ultra 4D 5 Solar Red",
+        "price": {
+            "$numberLong": "5000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "Ultraboost 20 Core Black",
+        "price": {
+            "$numberLong": "7000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    },
+    {
+        "brand": "adidas",
+        "image": [""],
+        "name": "X9000L4 Cyberpunk 2077 Crystal White",
+        "price": {
+            "$numberLong": "12000"
+        },
+        "stock": {
+            "$numberLong": "25"
+        }
+    }
+]
