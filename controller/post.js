@@ -11,13 +11,14 @@ var brandArrivalIndex = 0;
 
 var featured=[];
 var newArrivals=[]
-var isFeatured = true;
+var isChosen = true;
 
 //export function called render_all which returns all items in database
 exports.render_frontPage = function(req, res){
     Shoe.find({}).lean().exec(function(err, shoes){
         // console.log(shoes);
         shoes.forEach(shoe => {
+            isChosen = false;
             // console.log(shoe._id);
             // console.log(shoe.brand);
             // console.log(shoe.stock);
@@ -28,7 +29,12 @@ exports.render_frontPage = function(req, res){
                 featured.push(shoe);
                 // console.log(featured);
                 brandfeatureIndex++;
-                isFeatured = true;
+                isChosen = true;
+            }
+            if(shoe.brand == brands[brandArrivalIndex] && !isChosen){
+                newArrivals.push(shoe);
+                brandArrivalIndex++;
+                isChosen = true;
             }
             // if(!isFeatured){
             //     newArrivals.push(shoe);
@@ -38,8 +44,8 @@ exports.render_frontPage = function(req, res){
         });
         // res.sendFile(path.join(__dirname + '/../static/main.html'));
         // console.log(featured[0].brand)
-        console.log(featured[0].image[0]);
-        res.render("index.hbs", {product: featured});
+        // console.log(featured[0].image[0]);
+        res.render("index.hbs", {product: featured, newArrival: newArrivals});
     })
 }
 

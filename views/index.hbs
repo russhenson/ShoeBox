@@ -106,7 +106,17 @@
         </h3>
 
         <div class="new-arrivals-cards row">
+            {{#each newArrival}}
+
             <div class="product-card">
+                <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
+                <h6 class="product-brand">{{brand}}</h6>
+                <h5 class="product-name">{{name}}</h5>
+                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+            </div>
+
+            {{/each}}
+            {{!-- <div class="product-card">
                 <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
                 <h6 class="product-brand">Nike</h6>
                 <h5 class="product-name">Air Presto Off-White</h5>
@@ -123,13 +133,7 @@
                 <h6 class="product-brand">Nike</h6>
                 <h5 class="product-name">Air Presto Off-White</h5>
                 <h5 class="product-price text-uppercase">39,000 PHP</h5>
-            </div>
-            <div class="product-card">
-                <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                <h6 class="product-brand">Nike</h6>
-                <h5 class="product-name">Air Presto Off-White</h5>
-                <h5 class="product-price text-uppercase">39,000 PHP</h5>
-            </div>
+            </div> --}}
         </div>
 
     </div>

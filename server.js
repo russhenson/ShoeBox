@@ -5,6 +5,7 @@ const routes = require('./routes');
 const hbs = require('express-handlebars');
 const app = express()
 const mongoose = require('mongoose');
+const { urlencoded } = require('express');
 
 const port = 3000
 const hostname = "127.0.0.1";
@@ -51,20 +52,50 @@ app.use("/", routes);
 
 connect();
 
-// //nike page
-// app.get('/nike', function(req,res){
-//     res.sendFile(__dirname+"/static/nike.html");
-// })
+//nike page
+app.get('/nike', function(req,res){
+    res.sendFile(__dirname+"/static/nike.html");
+})
 
-// //login page
-// app.get('/login', function(req,res){
-//     res.sendFile(__dirname+"/static/login.html");
-// })
+//jordan page
+app.get('/jordan', function(req,res){
+  // res.sendFile(__dirname+"/static/nike.html");
+})
 
-// //product page
-// app.get('/product', function(req,res){
-//     res.sendFile(__dirname+"/static/product.html");
-// })
+//yeezy page
+app.get('/yeezy', function(req,res){
+  // res.sendFile(__dirname+"/static/nike.html");
+})
+
+//adidas page
+app.get('/adidas', function(req,res){
+  // res.sendFile(__dirname+"/static/nike.html");
+})
+
+//new balance page
+app.get('/new-balance', function(req,res){
+  // res.sendFile(__dirname+"/static/nike.html");
+})
+
+//product page
+app.get('/product', function(req,res){
+  res.sendFile(__dirname+"/static/product.html");
+})
+
+//login page
+app.post('/login', function(req,res){
+    res.sendFile(__dirname+"/static/login.html");
+})
+
+//create a new user
+app.post('/createUser', function(req,res){
+
+})
+
+//view cart
+app.get('/cart', function(req,res){
+
+})
 
 function listen(){
     app.listen(port, () =>{

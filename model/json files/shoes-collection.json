@@ -1,0 +1,865 @@
+[{
+  "_id": {
+    "$oid": "5ff65fc20aaa389839084b41"
+  },
+  "brand": "nike",
+  "image": [
+    "Nike_Products\\presto1.png",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "name": "Nike Airmax 97 Shanghai Kaleidoscope",
+  "price": 30000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff70ec0506df9406482f375"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike Flyknit Racer Cookies and Cream",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff70f54506df9406482f376"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike KD 6 Liger",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f377"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike Lebron 16 Low x Titan Agimat",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f378"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike Airmax 90 Nordic",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f379"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike PG 2.5 Playstation",
+  "price": 13000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f37a"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike React Element 55 Kendrick Lamar 'Multi-Platinum'",
+  "price": 11000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f37b"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike SB Dunk low Ben and Jerry's 'Chunky Dunky'",
+  "price": 45000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f37c"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike Airmax 90 'Triple White'",
+  "price": 6000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71055506df9406482f37d"
+  },
+  "brand": "nike",
+  "image": [
+    ""
+  ],
+  "name": "Nike SB Dunk Low Green Lobster",
+  "price": 60000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f37e"
+  },
+  "brand": "yeezy",
+  "image": [
+    "Nike_Products\\presto2.png"
+  ],
+  "name": "Yeezy 500 'Utility Black'",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f37f"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Black Non-Reflective'",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f380"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Bred'",
+  "price": 13000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f381"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Carbon'",
+  "price": 14000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f382"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Israfil'",
+  "price": 11000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f383"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Sand Taupe'",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f384"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Triple White'",
+  "price": 14000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f385"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Zebra'",
+  "price": 12000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f386"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 350 V2 'Zyon'",
+  "price": 13000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f387"
+  },
+  "brand": "yeezy",
+  "image": [
+    ""
+  ],
+  "name": "Yeezy Boost 700 'Wave Runner'",
+  "price": 18000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f388"
+  },
+  "brand": "new balance",
+  "image": [
+    "Nike_Products\\presto3.png",
+    ""
+  ],
+  "name": "New Balance 327 White with Scarlet",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f389"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 574 'Core Blackout'",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38a"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 997H Incense with tidepool",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38b"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 2002R Pigment with Light Aluminum",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38c"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "Casablanca x New Balance 327",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38d"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance COMP 100 Rogue wave with Neo Crimson",
+  "price": 6000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38e"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance Fresh Foam Roav Tee Shirt Natural indigo with light aluminum",
+  "price": 3500,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f38f"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "FuelCell Speedrift EnergyStreak Light aluminum with white and neo flame",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f390"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "Kawhi New Balance 327 'Seismic'",
+  "price": 9000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f391"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "Levi's x New Balance 327",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f392"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 577 Blue with yellow (Made in UK)",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f393"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 990 v5 Grey with Castlerock (Made in US)",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f394"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance 993 Vintage Indigo with Grey (Made in US)",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f395"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance M577ST 'Multicolor: Black'",
+  "price": 6000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f396"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance M997WEA",
+  "price": 6000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f397"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance OMN1S 'Lights Out' Dejounte Murray",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f398"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "New Balance OMN1S 'White Gold'",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f399"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "size? x New Balance 327",
+  "price": 9000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff714fa506df9406482f39a"
+  },
+  "brand": "new balance",
+  "image": [
+    ""
+  ],
+  "name": "STAUD x New Balance 327",
+  "price": 9000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f39b"
+  },
+  "brand": "jordan",
+  "image": [
+    "Nike_Products\\presto4.png"
+  ],
+  "name": "Air Jordan 1 Zoom CMFT",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f39c"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 5 Retro 'Alternate Bel-Air'",
+  "price": 9000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f39d"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 13 Retro 'Flint' (2020)",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f39e"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 14 Retro 'Last Shot' (2011)",
+  "price": 12000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f39f"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan XXXV 'Sisterhood'",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a0"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan XXXV PF 'Tech Pack'",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a1"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 1 High Dior",
+  "price": 350000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a2"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 1 High Travis Scott",
+  "price": 70000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a3"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 1 Low Dior",
+  "price": 250000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a4"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Air Jordan 1 Low Travis Scott",
+  "price": 45000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a5"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan 4 Carhartt Eminem",
+  "price": 850000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a6"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan 4 Manila",
+  "price": 3000000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a7"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan 4 Retro Bred",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a8"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan 5 Retro Purple Grape",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3a9"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan 10 Westbrook 'Class of 2006'",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3aa"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan Delta",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3ab"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan One Take II PF",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3ac"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan Westbrook One Take PF",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3ad"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "Jordan Zoom '92",
+  "price": 10000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff718c0506df9406482f3ae"
+  },
+  "brand": "jordan",
+  "image": [
+    ""
+  ],
+  "name": "OVO x Air Jordan 10 Retro Black",
+  "price": 15000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3af"
+  },
+  "brand": "adidas",
+  "image": [
+    "Nike_Products\\presto5.png",
+    ""
+  ],
+  "name": "Adizero Adios 4",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b0"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Breaknet Core Black",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b1"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Continental 80 Cloud White",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b2"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "D Rose 773 2020 Signal Cyan",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b3"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "D.O.N Issue 1",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b4"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Dame 4",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b5"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Duramo SL Vivid Red",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b6"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "EQT Support ADV",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b7"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Harden Vol. 4",
+  "price": 8000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b8"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "HU Race NMD by Pharrell Williams",
+  "price": 11000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3b9"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Jonah Hill x Adidas Samba",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3ba"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Stan Smith",
+  "price": 4000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3bb"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "NMD R1 Core Black",
+  "price": 6000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3bc"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Pro Model 2G Low Core Black",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3bd"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Superstar",
+  "price": 3000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3be"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Tubular",
+  "price": 4500,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3bf"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Ultra 4D 5 Solar Red",
+  "price": 5000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3c0"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "Ultraboost 20 Core Black",
+  "price": 7000,
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "5ff71a44506df9406482f3c1"
+  },
+  "brand": "adidas",
+  "image": [
+    ""
+  ],
+  "name": "X9000L4 Cyberpunk 2077 Crystal White",
+  "price": 12000,
+  "stock": 25
+}]
