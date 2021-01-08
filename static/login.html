@@ -13,15 +13,21 @@
 
     <div class="container login-container">
         <div class="login-box">
-            <img src="/images/shoeboxlogo.png" alt="logo">
-            <input type="text" class="email-address-input" id="email-address-input" placeholder="Email Address">
-            <input type="password" class="password-input" id="password-input" placeholder="Password">
-            <div class="remember-me">
-                <h6>Remember me</h6>
+            <a href="main.html"><img class="login-close" src="icons/x.svg" alt="close"></a>
+            <div class="login-content">
+                <a href="main.html"><img class="login-logo" src="images/shoeboxlogo.png" alt="logo"></a>
+                <input class="email-input" type="text" class="email-address-input" id="email-address-input" placeholder="Email Address">
+                <input class="pass-input" type="password" class="password-input" id="password-input" placeholder="Password">
+                <div class="remember-me">
+                <input type="checkbox" id="remember-me-checkbox">
+                <label for="remember-me-checkbox">Remember me</label>
             </div>
-            <button>LOGIN</button>
-
+            <button class="login-button">LOGIN</button>
+            <h5>New to ShoeBox?</h5>
+            <button class="create-account-button">CREATE AN ACCOUNT</button>
         </div>
+
+            
     </div>
     
 
