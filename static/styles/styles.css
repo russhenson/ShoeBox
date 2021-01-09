@@ -408,12 +408,45 @@ footer {
 
 .shipping-cart-fees-div h4 {
     color: #fff;
+    font-weight: 500;
     font-size: 20px;
-    font-weight: 600;
+    margin-bottom: 15px;
 }
 
+.shipping-cart-total {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+
 .shipping-cart-fees-div {
-    margin-top: 60px;
+    margin-top: 40px;
+    border-bottom: 5px solid #444;
+}
+
+.shipping-cart-buttons {
+    float: right;
+    right: 0px;
+    margin-top: 20px;
+}
+
+.continue-shopping-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 7px 12px;
+}
+
+.checkout-btn {
+    background-color: #ffa000;
+    color: #fff;
+    border: 2px solid #ffa000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 7px 12px;
+    margin-left: 10px;
 }
 
 /* login styles */
