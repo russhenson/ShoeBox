@@ -127,10 +127,11 @@ nav {
 footer {
     color: #fff;
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: #444;
     margin-top: 150px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .socmed-links, .policy-links {
@@ -143,9 +144,14 @@ footer {
 }
 
 .socmed-link img {
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     border-radius: 100%;
     padding: 10px;
+}
+
+.socmed-link img:hover {
+    border-radius: 100%;
+    border: 2px solid #ffa000;
 }
 
 .policy-links li {
@@ -157,10 +163,15 @@ footer {
     text-decoration: none;
 }
 
+.policy-links a:hover {
+    color: #ffa000 !important;
+}
+
 .copyright {
     text-align: center;
-    margin-top: 70px;
-    font-weight: 3  00;
+    margin-top: 30px;
+    font-weight: 300;
+    margin-bottom: 0px;
 }
 
 
