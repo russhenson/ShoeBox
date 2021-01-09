@@ -12,14 +12,10 @@
 </head>
 <body>
     
-    <nav class="navbar">
+    {{!-- <nav class="navbar">
         <div class="container logo-container">
-            <a href="main.html">
-                <img class="logo" src="images/shoeboxlogo.png" alt="logo">
-            </a>
-
-
         </div>
+        <script src="../controller/nav.js"></script>
 
         <div class="nav-icons">
             <ul class="list-unstyled">
@@ -55,7 +51,12 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> --}}
+
+    {{!-- <div id="navbar">
+    </div> --}}
+    {{> header}}
+    <script src="../controller/nav.js"></script>
 
     <div class="cover-photo">
         <img src="images/coverphoto.jpg" alt="cover photo">
@@ -138,7 +139,11 @@
 
     </div>
     
-    <footer>
+    <div id="footer">
+    </div>
+    <script src="../controller/footer.js"></script>
+
+    {{!-- <footer>
         <ul class="socmed-links list-unstyled">
             <li class="socmed-link">
                 <a href="www.facebook.com"><img src="icons/facebook.svg" alt="facebook"></a>
@@ -170,7 +175,7 @@
             Copyright <span><img src="icons/copyright.svg" alt="copyright"></span> 2020, Shoebox
         </h6>
 
-    </footer>
+    </footer> --}}
 
 
     <!--BOOTSTRAP-->

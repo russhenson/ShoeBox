@@ -57,5 +57,41 @@ function commaSeparator(number){
 
 //login
 exports.login_user = function(req, res){
-    z
+    User.findOne({username: "user", password: "user123"}).lean().exec(function(err, user){
+        //placeholder
+        if(user.isAdmin)
+            res.render(admin.html);
+        else
+            res.render(home.html);
+    })
+}
+
+exports.getNike = function(req, res){
+    Shoe.find({brand: "nike"}).lean().exec(function(err, shoes){
+
+    })
+}
+
+exports.getAdidas = function(req, res){
+    Shoe.find({brand: "adidas"}).lean().exec(function(err, shoes){
+        
+    })
+}
+
+exports.getNewBalance = function(req, res){
+    Shoe.find({brand: "new balance"}).lean().exec(function(err, shoes){
+        
+    })
+}
+
+exports.getJordan = function(req, res){
+    Shoe.find({brand: "jordan"}).lean().exec(function(err, shoes){
+        
+    })
+}
+
+exports.getYeezy = function(req, res){
+    Shoe.find({brand: "yeezy"}).lean().exec(function(err, shoes){
+        
+    })
 }
