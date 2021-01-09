@@ -55,6 +55,11 @@ function commaSeparator(number){
     return numParts.join(".");
 }
 
+//login page
+exports.loginPage = function(req, res){
+    res.render("login.hbs");
+}
+
 //login
 exports.login_user = function(req, res){
     User.findOne({username: "user", password: "user123"}).lean().exec(function(err, user){
@@ -67,9 +72,16 @@ exports.login_user = function(req, res){
 }
 
 exports.getNike = function(req, res){
+    let shoesArray=[];
     Shoe.find({brand: "nike"}).lean().exec(function(err, shoes){
-
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("nike.hbs", {nike: shoesArray})
     })
+    // res.render("nike.hbs");
 }
 
 exports.getAdidas = function(req, res){

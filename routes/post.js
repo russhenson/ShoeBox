@@ -3,7 +3,10 @@ const post_routes = require('express').Router();
 const post = require('../controller/post');
 
 //render front page
-post_routes.get("/home", post.render_frontPage);
+post_routes.get("/", post.render_frontPage);
+
+//login page
+post_routes.get("/loginPage", post.loginPage);
 
 //login
 post_routes.post("/login", post.login_user);
@@ -11,16 +14,16 @@ post_routes.post("/login", post.login_user);
 //all nike shoes
 post_routes.get("/nike", post.getNike);
 
-//all nike shoes
+//all adidas shoes
 post_routes.get("/adidas", post.getAdidas);
 
-//all nike shoes
+//all new balance shoes
 post_routes.get("/new_balance", post.getNewBalance);
 
-//all nike shoes
+//all jordan shoes
 post_routes.get("/jordan", post.getJordan);
 
-//all nike shoes
+//all yeezy shoes
 post_routes.get("/yeezy", post.getYeezy);
 
 module.exports = post_routes
