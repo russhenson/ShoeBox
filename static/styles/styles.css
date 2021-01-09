@@ -647,11 +647,13 @@ footer {
     top: 0;
     z-index: 2;
     background-color: #2d2d2d;
+    padding: 10px 0px;
+    
 }
 
 .top-nav-logo {
     width: 12%;
-    margin-top: 5px;
+    margin-top: auto;
     margin-left: 20px;
 }
 
