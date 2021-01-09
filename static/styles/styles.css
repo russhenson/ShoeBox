@@ -43,15 +43,19 @@ nav {
     position: absolute;
     top: 30px;
     right: 150px;
+    
 }
 
 .nav-icons li {
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+    opacity: 80%;
 }
 
-
+.nav-icons li:hover {
+    opacity: 100%;
+}
 
 .logo-container {
     text-align: center;
@@ -572,7 +576,8 @@ footer {
     font-size: 18px;
 }
 
-.create-account-button:hover, .signup-login-button:hover {
+.create-account-button:hover, .signup-login-button:hover, 
+.create-account-button:active, .signup-login-button:active {
     border: 2px solid #ffa000;
 }
 
