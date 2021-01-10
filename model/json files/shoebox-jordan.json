@@ -1,8 +1,8 @@
 [
     {
-        "brand": "jordan",
+        "brand": "Air Air Jordan",
         "image": [""],
-        "name": "Air Jordan 1 Zoom CMFT",
+        "name": "Air Air Jordan 1 Zoom CMFT",
         "price": {
             "$numberLong": "8000"
         },
@@ -11,9 +11,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "Air Jordan 5 Retro 'Alternate Bel-Air'",
+        "name": "Air Air Jordan 5 Retro 'Alternate Bel-Air'",
         "price": {
             "$numberLong": "9000"
         },
@@ -22,7 +22,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 13 Retro 'Flint' (2020)",
         "price": {
@@ -33,7 +33,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 14 Retro 'Last Shot' (2011)",
         "price": {
@@ -44,7 +44,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan XXXV 'Sisterhood'",
         "price": {
@@ -55,7 +55,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan XXXV PF 'Tech Pack'",
         "price": {
@@ -66,7 +66,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 1 High Dior",
         "price": {
@@ -77,7 +77,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 1 High Travis Scott",
         "price": {
@@ -88,7 +88,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 1 Low Dior",
         "price": {
@@ -99,7 +99,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Air Jordan 1 Low Travis Scott",
         "price": {
@@ -110,7 +110,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Jordan 4 Carhartt Eminem",
         "price": {
@@ -121,7 +121,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Jordan 4 Manila",
         "price": {
@@ -132,7 +132,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Jordan 4 Retro Bred",
         "price": {
@@ -143,7 +143,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Jordan 5 Retro Purple Grape",
         "price": {
@@ -154,7 +154,7 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
         "name": "Jordan 10 Westbrook 'Class of 2006'",
         "price": {
@@ -165,9 +165,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "Jordan Delta",
+        "name": "Air Jordan Delta",
         "price": {
             "$numberLong": "10000"
         },
@@ -176,9 +176,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "Jordan One Take II PF",
+        "name": "Air Jordan One Take II PF",
         "price": {
             "$numberLong": "10000"
         },
@@ -187,9 +187,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "Jordan Westbrook One Take PF",
+        "name": "Air Jordan Westbrook One Take PF",
         "price": {
             "$numberLong": "10000"
         },
@@ -198,9 +198,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "Jordan Zoom '92",
+        "name": "Air Jordan Zoom '92",
         "price": {
             "$numberLong": "10000"
         },
@@ -209,9 +209,9 @@
         }
     },
     {
-        "brand": "jordan",
+        "brand": "Air Jordan",
         "image": [""],
-        "name": "OVO x Air Jordan 10 Retro Black",
+        "name": "OVO x Air Air Jordan 10 Retro Black",
         "price": {
             "$numberLong": "15000"
         },

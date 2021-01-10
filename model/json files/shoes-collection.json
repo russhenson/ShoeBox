@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "5ff65fc20aaa389839084b41"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     "Nike_Products\\presto1.png",
     "",
@@ -10,113 +10,113 @@
     "",
     ""
   ],
-  "name": "Nike Airmax 97 Shanghai Kaleidoscope",
+  "name": "Airmax 97 Shanghai Kaleidoscope",
   "price": 30000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff70ec0506df9406482f375"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike Flyknit Racer Cookies and Cream",
+  "name": "Flyknit Racer Cookies and Cream",
   "price": 8000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff70f54506df9406482f376"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike KD 6 Liger",
+  "name": "KD 6 Liger",
   "price": 10000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f377"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike Lebron 16 Low x Titan Agimat",
+  "name": "Lebron 16 Low x Titan Agimat",
   "price": 15000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f378"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike Airmax 90 Nordic",
+  "name": "Airmax 90 Nordic",
   "price": 8000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f379"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike PG 2.5 Playstation",
+  "name": "PG 2.5 Playstation",
   "price": 13000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f37a"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike React Element 55 Kendrick Lamar 'Multi-Platinum'",
+  "name": "React Element 55 Kendrick Lamar",
   "price": 11000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f37b"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike SB Dunk low Ben and Jerry's 'Chunky Dunky'",
+  "name": "SB Dunk low Ben and Jerry's 'Chunky Dunky'",
   "price": 45000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f37c"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike Airmax 90 'Triple White'",
+  "name": "Airmax 90 'Triple White'",
   "price": 6000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff71055506df9406482f37d"
   },
-  "brand": "nike",
+  "brand": "Nike",
   "image": [
     ""
   ],
-  "name": "Nike SB Dunk Low Green Lobster",
+  "name": "SB Dunk Low Green Lobster",
   "price": 60000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f37e"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     "Nike_Products\\presto2.png"
   ],
@@ -127,7 +127,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f37f"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -138,7 +138,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f380"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -149,7 +149,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f381"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -160,7 +160,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f382"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -171,7 +171,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f383"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -182,7 +182,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f384"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -193,7 +193,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f385"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -204,7 +204,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f386"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -215,7 +215,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f387"
   },
-  "brand": "yeezy",
+  "brand": "Yeezy",
   "image": [
     ""
   ],
@@ -226,52 +226,52 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f388"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     "Nike_Products\\presto3.png",
     ""
   ],
-  "name": "New Balance 327 White with Scarlet",
+  "name": "327 White with Scarlet",
   "price": 7000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f389"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 574 'Core Blackout'",
+  "name": "574 'Core Blackout'",
   "price": 8000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f38a"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 997H Incense with tidepool",
+  "name": " 997H Incense with tidepool",
   "price": 4000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f38b"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 2002R Pigment with Light Aluminum",
+  "name": "2002R Pigment",
   "price": 4000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f38c"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
@@ -282,40 +282,40 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f38d"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance COMP 100 Rogue wave with Neo Crimson",
+  "name": "COMP 100 Rogue wave",
   "price": 6000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f38e"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance Fresh Foam Roav Tee Shirt Natural indigo with light aluminum",
+  "name": "Fresh Foam Roav",
   "price": 3500,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f38f"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "FuelCell Speedrift EnergyStreak Light aluminum with white and neo flame",
+  "name": "FuelCell Speedrift EnergyStreak",
   "price": 5000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f390"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
@@ -326,7 +326,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f391"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
@@ -337,84 +337,84 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f392"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 577 Blue with yellow (Made in UK)",
+  "name": "577 Blue with yellow (Made in UK)",
   "price": 5000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f393"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 990 v5 Grey with Castlerock (Made in US)",
+  "name": "990 v5 Grey with Castlerock (Made in US)",
   "price": 4000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f394"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance 993 Vintage Indigo with Grey (Made in US)",
+  "name": "993 Vintage Indigo with Grey (Made in US)",
   "price": 4000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f395"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance M577ST 'Multicolor: Black'",
+  "name": "M577ST 'Multicolor: Black'",
   "price": 6000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f396"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance M997WEA",
+  "name": "M997WEA",
   "price": 6000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f397"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance OMN1S 'Lights Out' Dejounte Murray",
+  "name": "OMN1S 'Lights Out' Dejounte Murray",
   "price": 7000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f398"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
-  "name": "New Balance OMN1S 'White Gold'",
+  "name": "OMN1S 'White Gold'",
   "price": 10000,
   "stock": 25
 },{
   "_id": {
     "$oid": "5ff714fa506df9406482f399"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
@@ -425,7 +425,7 @@
   "_id": {
     "$oid": "5ff714fa506df9406482f39a"
   },
-  "brand": "new balance",
+  "brand": "New Balance",
   "image": [
     ""
   ],
@@ -436,7 +436,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f39b"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     "Nike_Products\\presto4.png"
   ],
@@ -447,7 +447,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f39c"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -458,7 +458,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f39d"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -469,7 +469,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f39e"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -480,7 +480,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f39f"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -491,7 +491,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a0"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -502,7 +502,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a1"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -513,7 +513,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a2"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -524,7 +524,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a3"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -535,7 +535,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a4"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -546,7 +546,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a5"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -557,7 +557,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a6"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -568,7 +568,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a7"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -579,7 +579,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a8"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -590,7 +590,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3a9"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -601,7 +601,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3aa"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -612,7 +612,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3ab"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -623,7 +623,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3ac"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -634,7 +634,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3ad"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -645,7 +645,7 @@
   "_id": {
     "$oid": "5ff718c0506df9406482f3ae"
   },
-  "brand": "jordan",
+  "brand": "Air Jordan",
   "image": [
     ""
   ],
@@ -656,7 +656,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3af"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     "Nike_Products\\presto5.png",
     ""
@@ -668,7 +668,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b0"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -679,7 +679,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b1"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -690,7 +690,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b2"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -701,7 +701,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b3"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -712,7 +712,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b4"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -723,7 +723,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b5"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -734,7 +734,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b6"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -745,7 +745,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b7"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -756,7 +756,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b8"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -767,7 +767,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3b9"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -778,7 +778,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3ba"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -789,7 +789,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3bb"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -800,7 +800,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3bc"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -811,7 +811,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3bd"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -822,7 +822,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3be"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -833,7 +833,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3bf"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -844,7 +844,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3c0"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],
@@ -855,7 +855,7 @@
   "_id": {
     "$oid": "5ff71a44506df9406482f3c1"
   },
-  "brand": "adidas",
+  "brand": "Adidas",
   "image": [
     ""
   ],

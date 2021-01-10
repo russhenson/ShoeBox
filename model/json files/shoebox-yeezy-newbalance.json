@@ -1,6 +1,6 @@
 [
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy 500 'Utility Black'",
         "price": {
@@ -11,7 +11,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Black Non-Reflective'",
         "price": {
@@ -22,7 +22,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Bred'",
         "price": {
@@ -33,7 +33,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Carbon'",
         "price": {
@@ -44,7 +44,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Israfil'",
         "price": {
@@ -55,7 +55,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Sand Taupe'",
         "price": {
@@ -66,7 +66,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Triple White'",
         "price": {
@@ -77,7 +77,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Zebra'",
         "price": {
@@ -88,7 +88,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 350 V2 'Zyon'",
         "price": {
@@ -99,7 +99,7 @@
         }
     },
     {
-        "brand": "yeezy",
+        "brand": "Yeezy",
         "image": [""],
         "name": "Yeezy Boost 700 'Wave Runner'",
         "price": {
@@ -110,9 +110,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 327 White with Scarlet",
+        "name": "327 White with Scarlet",
         "price": {
             "$numberLong": "7000"
         },
@@ -121,9 +121,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 574 'Core Blackout'",
+        "name": "574 'Core Blackout'",
         "price": {
             "$numberLong": "8000"
         },
@@ -132,9 +132,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 997H Incense with tidepool",
+        "name": "997H Incense",
         "price": {
             "$numberLong": "4000"
         },
@@ -143,9 +143,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 2002R Pigment with Light Aluminum",
+        "name": "2002R Pigment",
         "price": {
             "$numberLong": "4000"
         },
@@ -154,7 +154,7 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
         "name": "Casablanca x New Balance 327",
         "price": {
@@ -165,9 +165,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance COMP 100 Rogue wave with Neo Crimson",
+        "name": "COMP 100 Rogue wave",
         "price": {
             "$numberLong": "6000"
         },
@@ -176,9 +176,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance Fresh Foam Roav Tee Shirt Natural indigo with light aluminum",
+        "name": "Fresh Foam Roav",
         "price": {
             "$numberLong": "3500"
         },
@@ -187,9 +187,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "FuelCell Speedrift EnergyStreak Light aluminum with white and neo flame",
+        "name": "FuelCell Speedrift EnergyStreak",
         "price": {
             "$numberLong": "5000"
         },
@@ -198,7 +198,7 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
         "name": "Kawhi New Balance 327 'Seismic'",
         "price": {
@@ -209,7 +209,7 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
         "name": "Levi's x New Balance 327",
         "price": {
@@ -220,9 +220,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 577 Blue with yellow (Made in UK)",
+        "name": "New Balance 577",
         "price": {
             "$numberLong": "5000"
         },
@@ -231,9 +231,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 990 v5 Grey with Castlerock (Made in US)",
+        "name": "990 v5 Grey",
         "price": {
             "$numberLong": "4000"
         },
@@ -242,9 +242,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance 993 Vintage Indigo with Grey (Made in US)",
+        "name": " 993 Vintage Indigo with Grey",
         "price": {
             "$numberLong": "4000"
         },
@@ -253,9 +253,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance M577ST 'Multicolor: Black'",
+        "name": "M577ST 'Multicolor: Black'",
         "price": {
             "$numberLong": "6000"
         },
@@ -264,9 +264,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance M997WEA",
+        "name": "M997WEA",
         "price": {
             "$numberLong": "6000"
         },
@@ -275,9 +275,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance OMN1S 'Lights Out' Dejounte Murray",
+        "name": "OMN1S 'Lights Out' Dejounte Murray",
         "price": {
             "$numberLong": "7000"
         },
@@ -286,9 +286,9 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
-        "name": "New Balance OMN1S 'White Gold'",
+        "name": "OMN1S 'White Gold'",
         "price": {
             "$numberLong": "10000"
         },
@@ -297,7 +297,7 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
         "name": "size? x New Balance 327",
         "price": {
@@ -308,7 +308,7 @@
         }
     },
     {
-        "brand": "new balance",
+        "brand": "New Balance",
         "image": [""],
         "name": "STAUD x New Balance 327",
         "price": {
