@@ -78,6 +78,10 @@ nav {
     width: 100%;
 }
 
+.cover-photo img {
+    width: 100%;
+}
+
 .featured-container {
     width: 100%;
     margin: 0;
