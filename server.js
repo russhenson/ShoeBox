@@ -118,7 +118,7 @@ function listen(){
 
 // connect to mongodb and if successfully connected we also open our port for our node app 
 function connect() {
-    databaseUrl = "mongodb://localhost:27017/shoeBoxdb"
+    databaseUrl = "mongodb+srv://admin123:admin123@cluster0.aqpg1.mongodb.net/shoeBoxDB?retryWrites=true&w=majority"
     mongoose.connection
       .on('error', console.log) //if error happened when connecting to db we log the error
       .on('disconnected', connect) //if we got disconnected to the datbase we will call again the connect function 
