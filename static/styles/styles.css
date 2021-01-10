@@ -75,6 +75,7 @@ nav {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 60px;
+    width: 100%;
 }
 
 .featured-container {
@@ -99,14 +100,14 @@ nav {
 
 .product-card {
     background-color: #fff;
-    width: 350px !important;
-    height: 380px;
+    width: 300px !important;
+    height: 350px;
     margin: 20px;
     box-shadow: 0px 0px 20px black;
 }
 
 .product-img {
-    width: 300px;
+    width: 250px;
     height: auto;
     margin: 40px 0px 30px 0px;
 }
@@ -225,7 +226,7 @@ footer {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    padding: 0px 14px;
+    padding: 0px 67px;
 }
 
 .results-title {
@@ -652,14 +653,14 @@ footer {
 
 .top-nav-logo {
     width: 12%;
-    margin-top: auto;
+    margin-top: 5px;
     margin-left: 20px;
 }
 
 .top-nav-logout {
     float: right;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 25px;
     opacity: 80%;
 }
 
