@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Item = require('../model/item');
 const Shoe = require('../model/shoe');
 const User = require('../model/user');
-const path = require('path');
+//const path = require('path');
 const document = require('html-element').document;
 
 var brands = ["nike", "yeezy", "new balance", "jordan", "adidas"];
@@ -85,25 +85,59 @@ exports.getNike = function(req, res){
 }
 
 exports.getAdidas = function(req, res){
+    let shoesArray=[];
     Shoe.find({brand: "adidas"}).lean().exec(function(err, shoes){
-        
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("adidas.hbs", {adidas: shoesArray})
     })
 }
 
 exports.getNewBalance = function(req, res){
+    let shoesArray=[];
     Shoe.find({brand: "new balance"}).lean().exec(function(err, shoes){
-        
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("newbalance.hbs", {newbalance: shoesArray})
     })
 }
 
 exports.getJordan = function(req, res){
+    let shoesArray=[];
     Shoe.find({brand: "jordan"}).lean().exec(function(err, shoes){
-        
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("jordan.hbs", {jordan: shoesArray})
     })
 }
 
 exports.getYeezy = function(req, res){
+    let shoesArray=[];
     Shoe.find({brand: "yeezy"}).lean().exec(function(err, shoes){
-        
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("yeezy.hbs", {yeezy: shoesArray})
+    })
+}
+
+exports.getProduct = function(req, res){
+    let productId = req.params['_id'];
+    Shoe.findOne({_id: productId}).lean().exec(function(err, product){
+        // shoe.price = commaSeparator(shoe.price)
+        let selectedProduct = product;
+        console.log(selectedProduct.brand);
+        res.render("product.hbs", {name:product.name, brand: product.brand, price: product.price});
     })
 }

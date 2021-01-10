@@ -26,4 +26,7 @@ post_routes.get("/jordan", post.getJordan);
 //all yeezy shoes
 post_routes.get("/yeezy", post.getYeezy);
 
+//show product
+post_routes.get("/product/:_id", post.getProduct);
+
 module.exports = post_routes

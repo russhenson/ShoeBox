@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <title>Jordan</title>
+</head>
+<body>
+    {{!-- <div id="navbar">
+    </div>
+    <script src="../controller/nav.js"></script> --}}
+
+    {{> header}}
+
+    <div class="brand-desc-container">
+        <h4 class="text-uppercase brand-title">
+            Jordan
+        </h4>
+        <p class="brand-description">
+            Since 1985, the sneakers with Michael Jordan’s name and world-renowned “Jumpman” silhouette have helped define and shape sneaker culture. It began with a standard Nike high-top and evolved with daring designs with each iteration. From graphic prints to patent leather to fighter planes and Ferrari-inspired designs, Jordan sneakers routinely transcend their basketball roots by refreshing their initial offering with new looks and color schemes to remain relevant to each new generation.
+        </p>
+    </div>
+
+    <div class="products-container row">
+        <div class="filter col-3">
+            <h5 class="text-uppercase">Filter</h5>
+
+            <div class="filter-options">
+                <div class="filter-model">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Model</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+                <div class="filter-color">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Color</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+                <div class="filter-year">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Year</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+                <div class="filter-price">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Price</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+                <div class="filter-mens">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Men's sizes</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+                <div class="filter-wmens">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Women's sizes</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-results col-9">
+
+            <div class="product-results-title row">
+                <h5 class="results-title text-uppercase col-4">Results</h5>
+                <div class="sort-products col">
+                    <h5>Sort by:</h5>
+                </div>
+            </div>
+
+            <div class="result-products">
+                <div class="product-cards row">
+                    {{#each jordan}}
+                        <div class="product-card">
+                            <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">
+                            <h6 class="product-brand">{{brand}}</h6>
+                            <h5 class="product-name">{{name}}</h5>
+                            <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                        </div>
+                    {{/each}}
+                    {{!-- <div class="product-card">
+                        <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">
+                        <h6 class="product-brand">Air Jordan</h6>
+                        <h5 class="product-name">Air Jordan 1 High OG "Travis Scott"</h5>
+                        <h5 class="product-price text-uppercase">153,250 PHP</h5>
+                    </div>
+                    <div class="product-card">
+                        <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">
+                        <h6 class="product-brand">Air Jordan</h6>
+                        <h5 class="product-name">Air Jordan 1 High OG "Travis Scott"</h5>
+                        <h5 class="product-price text-uppercase">153,250 PHP</h5>
+                    </div> --}}
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+    {{!-- <div id="footer">
+    </div>
+    <script src="../controller/footer.js"></script> --}}
+
+    {{> footer}}
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

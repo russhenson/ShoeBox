@@ -59,7 +59,7 @@
     {{!-- <script src="../controller/nav.js"></script> --}}
 
     <div class="cover-photo">
-        <img src="images/coverphoto.jpg" alt="cover photo">
+        <img src="/images/coverphoto.jpg" alt="cover photo">
     </div>
 
     <div class="featured-container">
@@ -70,12 +70,14 @@
         <div class="featured-cards row">
             {{#each product}}
 
-            <div class="product-card">
-                <img class="product-img" src="{{image.[0]}}" alt="presto">
-                <h6 class="product-brand">{{brand}}</h6>
-                <h5 class="product-name">{{name}}</h5>
-                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
-            </div>
+            <a class="product-card" href="/product/{{_id}}">
+                <div>
+                    <img class="product-img" src="{{image.[0]}}" alt="presto">
+                    <h6 class="product-brand">{{brand}}</h6>
+                    <h5 class="product-name">{{name}}</h5>
+                    <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                </div>
+            </a>
 
             {{/each}}
             {{!-- <div class="product-card">
@@ -109,12 +111,14 @@
         <div class="new-arrivals-cards row">
             {{#each newArrival}}
 
-            <div class="product-card">
-                <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                <h6 class="product-brand">{{brand}}</h6>
-                <h5 class="product-name">{{name}}</h5>
-                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
-            </div>
+            <a class="product-card" href="/product/{{_id}}">
+                <div>
+                    <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
+                    <h6 class="product-brand">{{brand}}</h6>
+                    <h5 class="product-name">{{name}}</h5>
+                    <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                </div>
+            </a>
 
             {{/each}}
             {{!-- <div class="product-card">
