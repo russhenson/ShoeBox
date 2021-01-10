@@ -667,11 +667,6 @@ footer {
     opacity: 100%;
 }
 
-.dashboard {
-    width: 100%;
-    height: 100%;
-}
-
 .side-nav {
     left: 0px;
     background-color: #2d2d2d;
@@ -714,4 +709,36 @@ footer {
 
 .dash-item:hover {
     background-color: #444;
+}
+
+.dash-item:active {
+    background-color: #ffa000;
+}
+
+
+/*User profile styles*/
+
+.user-content {
+    margin-left: 270px;
+    z-index: 0;
+    height: 100%;
+    padding-top: 135px;
+    padding-left: 100px;
+}
+
+.content-title {
+    color: #fff;
+    font-weight: 600;
+}
+.content-box {
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.content-box h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
 }
