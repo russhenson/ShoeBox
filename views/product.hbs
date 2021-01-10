@@ -49,11 +49,19 @@
             </div>
 
             <div class="product-btns">
-                <button class="add-cart-btn text-uppercase">Add to Cart</button>
-                <button class="fav-btn">Favorite 
-                    <span><img src="/icons/heart.svg" alt="favorite"></span>
-                </button>
+                {{!-- <button class="add-cart-btn text-uppercase">Add to Cart</button> --}}
+                <form action="/user/addToCart" method="post">
+                    <input type="hidden" value="{{_id}}" name="productID"></input>
+                    <input type="submit" value="ADD TO CART" name="addToCartButton" class="add-cart-btn text-uppercase"></input>
+                </form>
+                <form action="/user/addtowishlist" method="post">
+                    <input type="hidden" value="{{_id}}" name="productID"></input>
+                    <input type="submit" value="Favorite" name="addToWishlist" class="fav-btn"> 
+                    {{!-- <span><img src="/icons/heart.svg" alt="favorite"></span> --}}
+                    </input>
+                </form>
             </div>
+            
 
 
         </div>

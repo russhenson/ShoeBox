@@ -102,12 +102,14 @@
             <div class="result-products">
                 <div class="product-cards row">
                     {{#each jordan}}
-                        <div class="product-card">
-                            <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">
-                            <h6 class="product-brand">{{brand}}</h6>
-                            <h5 class="product-name">{{name}}</h5>
-                            <h5 class="product-price text-uppercase">{{price}} PHP</h5>
-                        </div>
+                        <a class="product-card" href="/product/{{_id}}">
+                            <div>
+                                <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">
+                                <h6 class="product-brand">{{brand}}</h6>
+                                <h5 class="product-name">{{name}}</h5>
+                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                            </div>
+                        </a>
                     {{/each}}
                     {{!-- <div class="product-card">
                         <img class="product-img" src="Jordan_Products/travishigh1.png" alt="presto">

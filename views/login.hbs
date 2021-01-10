@@ -1,19 +1,25 @@
 <div class="container login-container">
         <div class="login-box">
-            <a href="main.html"><img class="login-close" src="icons/x.svg" alt="close"></a>
+            <a href="/"><img class="login-close" src="/icons/x.svg" alt="close"></a>
             <div class="login-content">
-                <a href="main.html"><img class="login-logo" src="images/shoeboxlogo.png" alt="logo"></a>
-                <input class="email-input" type="text" id="email-address-input" placeholder="Email Address">
-                <input class="pass-input" type="password" id="password-input" placeholder="Password">
-                
-                <div class="remember-me">
-                    <input type="checkbox" id="remember-me-checkbox">
-                    <label for="remember-me-checkbox">Remember me</label>
-                </div>
+                <a href="/"><img class="login-logo" src="images/shoeboxlogo.png" alt="logo"></a>
+                <form action="/user/login" method="post">
+                    <input class="email-input" type="text" id="email_address_input" placeholder="Email Address" name="username">
+                    <input class="pass-input" type="password" id="password_input" placeholder="Password" name="password">
 
-                <button class="login-button" id="loginbtn">LOGIN</button>
-                <h5>New to ShoeBox?</h5>
-                <button class="create-account-button" id="createaccountbtn">CREATE AN ACCOUNT</button>
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me-checkbox">
+                        <label for="remember-me-checkbox">Remember me</label>
+                    </div>
+
+                    {{!-- <button class="login-button" id="loginbtn">LOGIN</button> --}}
+                    {{!-- <input class="login-button" id="loginbtn" type="submit" name="loginButton" value="LOGIN"></input> --}}
+                </form>
+                <form action="/user/createaccount" method="get">
+                    <h5>New to ShoeBox?</h5>
+                    {{!-- <button class="create-account-button" id="createaccountbtn">CREATE AN ACCOUNT</button> --}}
+                    <input type="submit" class="create-account-button" id="createaccountbtn" name="createButton" value="CREATE AN ACCOUNT"></input>
+                </form>
 
             </div>
         </div>
