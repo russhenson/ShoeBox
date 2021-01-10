@@ -5,7 +5,7 @@ const User = require('../model/user');
 //const path = require('path');
 const document = require('html-element').document;
 
-var brands = ["nike", "yeezy", "new balance", "jordan", "adidas"];
+var brands = ["Nike", "Yeezy", "New Balance", "Air Jordan", "Adidas"];
 var brandfeatureIndex = 0;
 var brandArrivalIndex = 0;
 
@@ -42,6 +42,8 @@ exports.render_frontPage = function(req, res){
             // shoe.price = commaSeparator(shoe.price);
             // console.log(shoe.price)
         });
+
+        // console.log("featured "+ featured);
         // res.sendFile(path.join(__dirname + '/../static/main.html'));
         // console.log(featured[0].brand)
         // console.log(featured[0].image[0]);
@@ -73,7 +75,7 @@ exports.login_user = function(req, res){
 
 exports.getNike = function(req, res){
     let shoesArray=[];
-    Shoe.find({brand: "nike"}).lean().exec(function(err, shoes){
+    Shoe.find({brand: "Nike"}).lean().exec(function(err, shoes){
         shoes.forEach(shoe =>{
             shoe.price = commaSeparator(shoe.price);
             shoesArray.push(shoe);
@@ -86,7 +88,7 @@ exports.getNike = function(req, res){
 
 exports.getAdidas = function(req, res){
     let shoesArray=[];
-    Shoe.find({brand: "adidas"}).lean().exec(function(err, shoes){
+    Shoe.find({brand: "Adidas"}).lean().exec(function(err, shoes){
         shoes.forEach(shoe =>{
             shoe.price = commaSeparator(shoe.price);
             shoesArray.push(shoe);
@@ -98,7 +100,7 @@ exports.getAdidas = function(req, res){
 
 exports.getNewBalance = function(req, res){
     let shoesArray=[];
-    Shoe.find({brand: "new balance"}).lean().exec(function(err, shoes){
+    Shoe.find({brand: "New Balance"}).lean().exec(function(err, shoes){
         shoes.forEach(shoe =>{
             shoe.price = commaSeparator(shoe.price);
             shoesArray.push(shoe);
@@ -110,7 +112,7 @@ exports.getNewBalance = function(req, res){
 
 exports.getJordan = function(req, res){
     let shoesArray=[];
-    Shoe.find({brand: "jordan"}).lean().exec(function(err, shoes){
+    Shoe.find({brand: "Air Jordan"}).lean().exec(function(err, shoes){
         shoes.forEach(shoe =>{
             shoe.price = commaSeparator(shoe.price);
             shoesArray.push(shoe);
@@ -122,7 +124,7 @@ exports.getJordan = function(req, res){
 
 exports.getYeezy = function(req, res){
     let shoesArray=[];
-    Shoe.find({brand: "yeezy"}).lean().exec(function(err, shoes){
+    Shoe.find({brand: "Yeezy"}).lean().exec(function(err, shoes){
         shoes.forEach(shoe =>{
             shoe.price = commaSeparator(shoe.price);
             shoesArray.push(shoe);
