@@ -742,3 +742,17 @@ footer {
     font-weight: 500;
     font-size: 22px;
 }
+
+
+/*Checkout page*/
+.checkout-div h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.checkout-div button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
