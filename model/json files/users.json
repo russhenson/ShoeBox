@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5ff9f02cd1ddea13d9a71e75"
+  },
+  "username": "user",
+  "password": "user123",
+  "display_Name": "User Test",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "5ff9f07519965358900f9b6a"
+  },
+  "username": "admin",
+  "password": "admin123",
+  "display_Name": "Admin Test",
+  "isAdmin": true
+}]
