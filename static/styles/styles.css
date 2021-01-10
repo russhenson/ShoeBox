@@ -119,9 +119,10 @@ nav {
 }
 
 .product-name {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-weight: 500;
     font-size: 20px;
+    height: 55px;
 }
 
 .product-price {
