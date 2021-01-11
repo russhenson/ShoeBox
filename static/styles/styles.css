@@ -280,7 +280,10 @@ footer {
 .product-cards {
     text-align: center;
     justify-content: center;
-    
+}
+
+.product-cards a:hover {
+    color: #ffa000;
 }
 
 .product-card {
@@ -517,6 +520,7 @@ footer {
     font-weight: 400;
     margin-bottom: 30px;
     font-size: 16px;
+    outline: none;
 }
 
 .pass-input {
@@ -529,6 +533,11 @@ footer {
     font-weight: 400;
     margin-bottom: 10px;
     font-size: 16px;
+    outline: none;
+}
+
+.email-input:focus, .pass-input:focus {
+    border: 2px solid #ffa000;
 }
 
 .signup-name, .signup-email, .signup-pass-input{
@@ -541,6 +550,7 @@ footer {
     font-weight: 400;
     margin-bottom: 20px;
     font-size: 16px;
+    outline: none;
 }
 
 .remember-me label {
@@ -563,6 +573,7 @@ footer {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .register-button {
@@ -571,6 +582,10 @@ footer {
 
 .login-button:hover, .register-button:hover {
     background-color: #ffa000;
+}
+
+.login-button:active {
+    outline: none;
 }
 
 .create-account-button, .signup-login-button {
