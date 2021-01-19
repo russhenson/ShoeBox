@@ -48,4 +48,6 @@ const userSchema = new mongoose.Schema({
     cart:[cartItem]
 })
 
+//use cookies
+
 module.exports = mongoose.model('User', userSchema);
