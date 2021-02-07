@@ -3,6 +3,7 @@ const user_routes = require('express').Router();
 const user_controller = require('../controller/usernav');
 // const admin_controller = require('../controller/adminnav');
 const login_controller = require('../controller/login');
+const session = require('express-session');
 
 //render user profile
 user_routes.get('/profile', user_controller.getProfile);

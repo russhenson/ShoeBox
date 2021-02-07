@@ -1,5 +1,6 @@
 const post_routes = require('express').Router();
 
+const session = require('express-session');
 const post = require('../controller/post');
 
 //render front page

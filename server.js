@@ -6,6 +6,7 @@ const hbs = require('express-handlebars');
 const app = express()
 const mongoose = require('mongoose');
 const { urlencoded } = require('express');
+const session = require('express-session');
 
 const port = 3000
 const hostname = "127.0.0.1";
@@ -40,6 +41,9 @@ app.engine('hbs', hbs({
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }))
+
+//set secret for sessions
+app.use(session({secret: 'shoebox'}))
 
 //add handlebars
 app.set("view engine", "hbs");
