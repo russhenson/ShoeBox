@@ -137,8 +137,10 @@ exports.getYeezy = function(req, res){
 exports.getProduct = function(req, res){
     let productId = req.params['_id'];
     Shoe.findOne({_id: productId}).lean().exec(function(err, shoe){
+        //console.log(shoe.price);
         shoe.price = commaSeparator(shoe.price)
+        console.log(shoe.image[0]);
         // console.log(selectedProduct._id);
-        res.render("product.hbs", {name:shoe.name, brand: shoe.brand, price: shoe.price, _id: shoe._id});
+        res.render("product.hbs", {name:shoe.name, brand: shoe.brand, price: shoe.price, _id: shoe._id, imageSrc: shoe.image[0]});
     })
 }

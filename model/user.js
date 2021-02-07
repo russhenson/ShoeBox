@@ -23,6 +23,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const cartItem = require('./item').schema;
+const shoeItem = require('./shoe').schema;
 
 const userSchema = new mongoose.Schema({
     displayName:{
@@ -45,8 +46,13 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    favorites:[cartItem.ObjectId],
-    cart:[cartItem.ObjectId]
+    favorites:[{
+        type: String,
+        required: true
+    }],
+    cart:[{type: String,
+        required: true
+    }]
 })
 
 //use cookies

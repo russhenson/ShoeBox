@@ -18,6 +18,10 @@ const itemSchema = new mongoose.Schema({
     amount:{
         type: String,
         required: true
+    },
+    itemID:{
+        type: String,
+        required: true
     }
 })
 
