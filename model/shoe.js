@@ -6,10 +6,22 @@ const shoeSchema = new Schema({
         type: String,
         required: true
     },
-    image:[{
+    image:{
         type: String,
         required: true
-    }],
+    },
+    nickname:{
+        type: String,
+        required: true
+    },
+    year:{
+        type: Date,
+        required: true
+    },
+    color:{
+        type: String,
+        required: true
+    },
     name:{
         type: String,
         required: true

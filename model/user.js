@@ -45,7 +45,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    cart:[cartItem]
+    favorites:[cartItem.ObjectId],
+    cart:[cartItem.ObjectId]
 })
 
 //use cookies
