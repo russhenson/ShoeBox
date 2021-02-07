@@ -42,10 +42,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    userID:{
-        type: String,
-        required: true
-    },
     favorites:[{
         type: String,
         required: true

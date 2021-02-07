@@ -75,7 +75,22 @@ exports.createAccount = function(req, res){
     console.log(req.body.email);
     console.log(req.body.password);
     console.log(req.body.confirmPassword);
-    res.render("userprofile.hbs")
+
+    var newUser = new User({
+        displayName: req.body.name,
+        username: req.body.email,
+        isAdmin: false,
+        password: req.body.password,
+        favorites:[],
+        cart:[]
+    })
+
+    newUser.save(function(err, user){
+        if(err) return console.error(err);
+        console.log(user.displayName + " saved to user collection")
+    })
+    
+    res.render("userprofile.hbs",{displayName: req.body.name, emailAddress: req.body.email})
 }
 
 exports.addToWishlist = function(req,res){
