@@ -28,13 +28,13 @@ exports.render_frontPage = function(req, res){
             // console.log(shoe.name);
             // console.log(shoe.price);
             shoe.price = commaSeparator(shoe.price);
-            if(shoe.brand == brands[brandfeatureIndex]){
+            if(shoe.brand.toUpperCase() == brands[brandfeatureIndex]){
                 featured.push(shoe);
                 // console.log(featured);
                 brandfeatureIndex++;
                 isChosen = true;
             }
-            if(shoe.brand == brands[brandArrivalIndex] && !isChosen){
+            if(shoe.brand.toUpperCase() == brands[brandArrivalIndex] && !isChosen){
                 newArrivals.push(shoe);
                 brandArrivalIndex++;
                 isChosen = true;
