@@ -426,6 +426,12 @@ footer {
     margin-top: 20px !important;
 }
 
+.shopping-cart-item-quantity{
+    justify-content: center;
+    text-align: center;
+    padding-right: 100px !important;
+}
+
 .shopping-cart-item-desc {
     padding-left: 40px !important;
 }
@@ -480,6 +486,18 @@ footer {
     padding: 7px 12px;
     margin-left: 10px;
 }
+
+.checkout-qty {
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.minus-qty, .plus-qty{
+    padding: 0px !important;
+}
+
 
 /* login styles */
 
