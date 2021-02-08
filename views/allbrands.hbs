@@ -31,15 +31,6 @@
             <h5 class="text-uppercase">Filter</h5>
 
             <div class="filter-options">
-                <div class="filter-model">
-                    <div class="filter-option">
-                        <h6 class="text-uppercase">Model</h6>
-                        <img src="icons/chevron-down.svg" alt="down">
-                    </div>
-                    <div class="filter-content">
-
-                    </div>
-                </div>
                 <div class="filter-color">
                     <div class="filter-option">
                         <h6 class="text-uppercase">Color</h6>
@@ -84,25 +75,62 @@
 
             <div class="result-products">
                 <div class="product-cards row">
-                    <div class="product-card">
-                        <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                        <h6 class="product-brand">Nike</h6>
-                        <h5 class="product-name">Air Presto Off-White</h5>
-                        <h5 class="product-price text-uppercase">39,000 PHP</h5>
-                    </div>
                     
-                </div>
-
-                {{!-- {{#each jordan}}
+                    {{#each jordan}}
                         <a class="product-card" href="/product/{{_id}}">
                             <div>
                                 <img class="product-img" src="{{image.[0]}}" alt="product">
                                 <h6 class="product-brand">{{brand}}</h6>
-                                <h5 class="product-name">{{name}}</h5>
+                                <h5 class="product-name">{{nickname}}</h5>
                                 <h5 class="product-price text-uppercase">{{price}} PHP</h5>
                             </div>
                         </a>
-                    {{/each}} --}}
+                    {{/each}}
+                    {{#each nike}}
+                        <a class="product-card" href="/product/{{_id}}">
+                            <div>
+                                <img class="product-img" src="{{image.[0]}}" alt="product">
+                                <h6 class="product-brand">{{brand}}</h6>
+                                <h5 class="product-name">{{nickname}}</h5>
+                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                            </div>
+                        </a>
+                    {{/each}}
+                    {{#each yeezy}}
+                        <a class="product-card" href="/product/{{_id}}">
+                            <div>
+                                <img class="product-img" src="{{image.[0]}}" alt="presto">
+                                <h6 class="product-brand">{{brand}}</h6>
+                                <h5 class="product-name">{{nickname}}</h5>
+                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                            </div>
+                        </a>
+                    {{/each}}
+                    {{#each adidas}}
+                        <a class="product-card" href="/product/{{_id}}">
+                            <div>
+                                <img class="product-img" src="{{image.[0]}}" alt="presto">
+                                <h6 class="product-brand">{{brand}}</h6>
+                                <h5 class="product-name">{{nickname}}</h5>
+                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                            </div>
+                        </a>
+                    {{/each}}
+                    {{#each newbalance}}
+                        <a class="product-card" href="/product/{{_id}}">
+                            <div>
+                                <img class="product-img" src="{{image.[0]}}" alt="presto">
+                                <h6 class="product-brand">{{brand}}</h6>
+                                <h5 class="product-name">{{nickname}}</h5>
+                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
+                            </div>
+                        </a>
+                    {{/each}}
+
+                    
+                </div>
+
+                
             </div>
             
             
