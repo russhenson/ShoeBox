@@ -282,7 +282,7 @@ footer {
     justify-content: center;
 }
 
-.product-cards a:hover {
+.product-cards a:hover, .featured-cards a:hover, .new-arrivals-cards a:hover {
     color: #ffa000;
 }
 
@@ -300,11 +300,10 @@ footer {
 }
 
 .product-gallery {
-    border: 2px solid red;
+    padding-top: 50px;
     width: 55%;
     float: left;
     margin-right: 0px;
-    background-color: white;
 }
 
 .product-desc {
@@ -786,13 +785,61 @@ footer {
     
 }
 
-.product-content-box {
-    border: 3px solid #858585;
+.product-content-box, .customers-content-box, .orders-content-box,
+.favorites-content-box, .user-orders-content-box {
+    border: 2px solid #fff;
     margin-top: 20px;
     margin-right: 100px;
     padding: 20px;
-    background-color: #fff;
     margin-bottom: 50px;
+}
+
+.user-profile-content-box {
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.user-profile-content-box h3 {
+    font-weight: 600;
+    margin: 15px;
+}
+
+.user-profile-content-box input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #444;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.user-profile-content-box input:focus{
+    border-bottom: 1px solid #ffa000;
+}
+
+.user-name, .user-email, .user-username, .user-size, .user-address{
+    display: inline-flex;
+}
+
+.save-userProfile {
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    background-color: transparent;
+    border: 2px solid #ffa000 !important;
+    width: 100px;
+    
+    position:absolute;
+    right: 100 !important;
+}
+
+.save-userProfile:hover {
+    background-color: #ffa000;
 }
 
 .content-table-title h3 {
@@ -802,13 +849,13 @@ footer {
 
 .content-table-title {
     
-    color: #2D2D2D;
+    color: #ffa000;
     margin-bottom: 30px;
-    border-bottom: 2px solid #858585;
+    border-bottom: 2px solid #444;
 }
 
 .content-table input{
-    color: #2d2d2d;
+    color: #fff;
     font-size: 14px !important;
     font-weight: 400 !important;
     background-color: transparent;
@@ -817,7 +864,7 @@ footer {
 }
 
 .content-table {
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid #444;
     padding-top: 7px;
     padding-bottom: 7px;
 }
@@ -828,11 +875,12 @@ footer {
     width: 100%;
     font-size: 12px;
     margin: 3px 0px;
+    color: #fff;
 }
 
 .product-btns button:hover{
     background-color: #ffa000;
-    
+    color: #fff;
 }
 
 .admin-product-img {
@@ -884,6 +932,42 @@ footer {
     color: #fff;
     text-align: center;
 }
+
+/* search page */
+
+.search-content{
+    width: 100%;
+}
+
+
+.search-div input{
+    border: 2px solid #fff;
+    height: 80px;
+    width: 60%;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 42px;
+    outline: none;
+    position: fixed;
+    left: 350;
+    top: 400;
+}
+
+.search-div input:focus{
+    border: 2px solid #ffa000;
+    outline: none;
+}
+
+.search-div img {
+    width: 3%;
+    height: auto;
+    position: fixed;
+    top: 410;
+    right: 350;
+}
+
 
 /*Checkout page*/
 .checkout-div h2 {

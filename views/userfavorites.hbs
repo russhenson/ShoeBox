@@ -23,8 +23,28 @@
 
     <div class="user-content">
         <h2 class="content-title text-uppercase" id="content-title">Favorites</h2>
-        <div class="content-box">
-            <h3>You got no Favorites, mate</h3>  
+        <div class="favorites-content-box">
+            <div class="content-table-title row">
+                <h3 class="col-2">Image</h3>
+                <h3 class="col-2">Brand</h3>
+                <h3 class="col-5">Name</h3>
+                <h3 class="col-2">Price</h3>
+                <h3 class="col-1">Color</h3>
+            </div>
+
+
+            {{!-- {{#each fave}} --}}
+
+                <div class="content-table row">
+                    <img class="user-fave-img col-2" src="/{{image.[0]}}" alt="">
+                    <h3 class="col-2">{{brand}}</h3>
+                    <h3 class="col-5">{{name}}</h3>
+                    <h3 class="col-2">{{price}}</h3>
+                    <h3 class="col-1">{{Color}}</h3>
+                </div>
+
+            {{!-- {{/each}} --}}
+
         </div>
     </div>
 

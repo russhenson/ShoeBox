@@ -36,5 +36,19 @@ exports.getAddProd = function(req, res){
 }
 
 exports.removeProd = function(req, res){
-    
+    let productID = req.body.productID;
+
+    Shoe.deleteOne(eq("id", productID));
+
+    res.render("adminproducts.hbs");
+}
+
+exports.updateProd = function(req, res){
+    let productID = req.body.productID;
+
+
+}
+
+exports.uploadImage = function(req, res){
+    let productID = req.body.productID;
 }

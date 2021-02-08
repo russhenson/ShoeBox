@@ -22,14 +22,37 @@
 
     <div class="user-content">
         <h2 class="content-title text-uppercase" id="content-title">Profile</h2>
-        <div class="content-box">
-            <h3>Name: {{displayName}}</h3>
-            <h3>Email Address: {{emailAddress}}</h3>
-            <h3>Username: {{userName}}</h3>
-            <h3>Shoe size: {{shoeSize}}</h3>
-            <h3>Default Address: {{address}}</h3>
+        <div class="user-profile-content-box">
+            <div class="user-name">
+                <h3 class="col">Name: </h3>
+                <input class="col" type="text" value="{{displayName}}">
+            </div>
+            <br>
+            <div class="user-email">
+                <h3>Email: </h3>
+                <input type="text" value="{{emailAddress}}">
+            </div>
+            <br>
+            <div class="user-username">
+                <h3>Username: </h3>
+                <input type="text" value="{{userName}}">
+            </div>
+            <br>
+            <div class="user-size">
+                <h3>Shoe size: </h3>
+                <input type="text" value="{{shoeSize}}">
+            </div>
+            <br>
+            <div class="user-address">
+                <h3>Default address: </h3>
+                <input type="text" value="{{address}}">
+            </div>
         </div>
+        <button class="save-userProfile btn">Save</button>
     </div>
+    
+    
+    
 
      <!--BOOTSTRAP-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">

@@ -49,11 +49,14 @@
                         <input class="col-1" type="text" value="{{price}}">
                         <input class="col-1" type="text" value="{{Color}}">
                         <input class="col-1" type="text" value="{{Year}}">
+
+                        
                         <div class="col product-btns">
-                            <button class="btn">Upload</button>
-                            <button class="btn">Update</button>
-                            <button class="btn">Remove</button>
+                            <button name="action" value="upload" class="btn">Upload</button>
+                            <button name="action" value="update" class="btn">Update</button>
+                            <button name="action" value="remove" class="btn">Remove</button>
                         </div>
+                        
 
                 </div>
             {{/each}}

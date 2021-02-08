@@ -6,6 +6,12 @@ const post = require('../controller/post');
 //render front page
 post_routes.get("/", post.render_frontPage);
 
+//search page
+post_routes.get("/searchPage", post.getSearchPage);
+
+//search result page
+post_routes.get("/searchResults", post.getSearchResult);
+
 //login page
 post_routes.get("/loginPage", post.loginPage);
 

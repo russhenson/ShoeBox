@@ -62,6 +62,16 @@ exports.loginPage = function(req, res){
     res.render("login.hbs");
 }
 
+//search page
+exports.getSearchPage = function(req, res){
+    res.render("search.hbs");
+}
+
+//search result
+exports.getSearchResult = function(req, res){
+    res.render("searchresults.hbs");
+}
+
 //login
 exports.login_user = function(req, res){
     User.findOne({username: "user", password: "user123"}).lean().exec(function(err, user){
