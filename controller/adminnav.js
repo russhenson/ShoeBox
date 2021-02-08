@@ -1,5 +1,7 @@
 const User = require('../model/user');
+const Shoe = require('../model/shoe');
 var userArray = []
+
 
 // $.get("adminnav.html", function(data){
 //     $("#adminnav").replaceWith(data);
@@ -17,7 +19,16 @@ exports.getOrders = function(req, res){
 }
 
 exports.getProducts = function(req, res){
-    res.render('adminproducts.hbs');
+    let shoesArray=[];
+    Shoe.find().lean().exec(function(err, shoes){
+        shoes.forEach(shoe =>{
+            /* shoe.price = commaSeparator(shoe.price); */
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("adminproducts.hbs", {shoe: shoesArray})
+        
+    })
 }
 
 exports.getSales = function(req, res){

@@ -143,8 +143,10 @@ exports.getAllBrands = function(req, res){
         });
         console.log(shoesArray);
         res.render("allbrands.hbs", {shoe: shoesArray})
+        
     })
 }
+
 
 exports.getProduct = function(req, res){
     let productId = req.params['_id'];

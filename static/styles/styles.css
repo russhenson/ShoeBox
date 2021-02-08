@@ -782,13 +782,77 @@ footer {
     margin-top: 20px;
     margin-right: 100px;
     padding: 20px;
+    
 }
 
-.content-box h3 {
-    color: #fff;
-    font-weight: 500;
-    font-size: 22px;
+.product-content-box {
+    border: 3px solid #858585;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 50px;
 }
+
+.content-table-title h3 {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.content-table-title {
+    
+    color: #2D2D2D;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #858585;
+}
+
+.content-table input{
+    color: #2d2d2d;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.content-table {
+    border-bottom: 1px solid #2d2d2d;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.product-btns button{
+    border: 2px solid #ffa000;
+    background-color: transparent;
+    width: 100%;
+    font-size: 12px;
+    margin: 3px 0px;
+}
+
+.product-btns button:hover{
+    background-color: #ffa000;
+    
+}
+
+.admin-product-img {
+    width: 100%;
+    margin-top: 40%;
+}
+
+.upload-btn {
+    padding: 0px !important;
+    display: inline-block;
+}
+
+.product-img-div{
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.prod-stock{
+    padding-left: 40px !important;
+}
+
 
 
 /*Checkout page*/

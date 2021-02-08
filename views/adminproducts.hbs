@@ -22,16 +22,49 @@
     {{> adminnav}}
 
     <div class="user-content">
-        <h2 class="content-title text-uppercase" id="content-title">Orders</h2>
-        <div class="content-box">
-            <div class="row">
-                <h3 class="col">Product</h3>
-                <h3 class="col">Inventory</h3>
-                <h3 class="col">Brand</h3>
+        <h2 class="content-title text-uppercase" id="content-title">Products</h2>
+        <div class="product-content-box">
+            <div class="content-table-title row">
+                <h3 class="col">Image</h3>
+                <h3 class="col-1">Brand</h3>
+                <h3 class="col-3">Name</h3>
+                <h3 class="col-2">Nickname</h3>
+                <h3 class="col-1">Stocks</h3>
+                <h3 class="col-1">Price</h3>
+                <h3 class="col-1">Color</h3>
+                <h3 class="col-1">Year</h3>
+                <h3 class="col">Update</h3>
             </div>
-            
-            
+
+            {{#each shoe}}
+                <div class="content-table row">
+
+                        <div class="product-img-div col">
+                            <img class="admin-product-img" src="/{{image.[0]}}" alt="">
+                        </div>
+                        <input class="col-1" type="text" value="{{brand}}">
+                        <input class="col-3" type="text" value="{{name}}">
+                        <input class="col-2" type="text" value="{{nickname}}">
+                        <input class="col-1 prod-stock" type="text" value="{{stock}}">
+                        <input class="col-1" type="text" value="{{price}}">
+                        <input class="col-1" type="text" value="{{Color}}">
+                        <input class="col-1" type="text" value="{{Year}}">
+                        <div class="col product-btns">
+                            <button class="btn">Upload</button>
+                            <button class="btn">Update</button>
+                            <button class="btn">Remove</button>
+                        </div>
+
+                </div>
+            {{/each}}
+
+        
         </div>
+
+        <div class="add-product-div">
+            <h3>Add products</h3>
+        </div>
+
     </div>
 
      <!--BOOTSTRAP-->
