@@ -31,6 +31,10 @@ exports.getProducts = function(req, res){
     })
 }
 
-exports.getSales = function(req, res){
-    res.render('adminsales.hbs');
+exports.getAddProd = function(req, res){
+    res.render('adminaddprod.hbs');
+}
+
+exports.removeProd = function(req, res){
+    
 }

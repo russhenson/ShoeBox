@@ -10,7 +10,7 @@ admin_routes.get('/orders', admin_controller.getOrders);
 //show products
 admin_routes.get('/products', admin_controller.getProducts);
 
-//show sales
-admin_routes.get('/sales', admin_controller.getSales);
+//show add prod page
+admin_routes.get('/addprod', admin_controller.getAddProd);
 
 module.exports = admin_routes;

@@ -771,6 +771,7 @@ footer {
     height: 100%;
     padding-top: 135px;
     padding-left: 100px;
+    padding-bottom: 70px;
 }
 
 .content-title {
@@ -853,7 +854,36 @@ footer {
     padding-left: 40px !important;
 }
 
+.add-prod-div{
+    color: #fff;
+}
 
+.add-prod-div input {
+    background-color: transparent;
+    border-bottom: #fff;
+}
+
+.blank h3{
+    color: #2D2D2D;
+}
+
+.num-of-prod-title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#num-of-prod {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+}
 
 /*Checkout page*/
 .checkout-div h2 {

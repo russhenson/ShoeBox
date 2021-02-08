@@ -15,14 +15,18 @@
 </head>
 <body>
 
-    <!-- <div id="adminnav">
+    {{!-- <div id="adminnav">
     </div>
-    <script src="../controller/adminnav.js"></script> -->
+    <script src="../controller/adminnav.js"></script> --}}
 
     {{> adminnav}}
 
     <div class="user-content">
-        <h2 class="content-title text-uppercase" id="content-title">Products</h2>
+        <h2 class="content-title text-uppercase" id="content-title">Add Products</h2>
+        <h3 class="num-of-prod-title">Number of products to add:   
+            <input  id="num-of-prod" type="text">
+            <button class="btn"><img src="/icons/check.svg" alt=""></button>
+        </h3>
         <div class="product-content-box">
             <div class="content-table-title row">
                 <h3 class="col">Image</h3>
@@ -36,7 +40,9 @@
                 <h3 class="col">Update</h3>
             </div>
 
-            {{#each shoe}}
+
+
+            {{!-- {{#each shoe}}
                 <div class="content-table row">
 
                         <div class="product-img-div col">
@@ -56,7 +62,7 @@
                         </div>
 
                 </div>
-            {{/each}}
+            {{/each}} --}}
 
         
         </div>
