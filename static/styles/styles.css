@@ -940,7 +940,7 @@ footer {
 }
 
 
-.search-div input{
+.searchInput{
     border: 2px solid #fff;
     height: 80px;
     width: 60%;
@@ -955,12 +955,12 @@ footer {
     top: 400;
 }
 
-.search-div input:focus{
+.searchInput:focus{
     border: 2px solid #ffa000;
     outline: none;
 }
 
-.search-div img {
+.searchBtn{
     width: 3%;
     height: auto;
     position: fixed;
