@@ -10,7 +10,7 @@ post_routes.get("/", post.render_frontPage);
 post_routes.get("/searchPage", post.getSearchPage);
 
 //search result page
-post_routes.get("/searchResults", post.getSearchResult);
+post_routes.post("/searchResults", post.getSearchResult);
 
 //login page
 post_routes.get("/loginPage", post.loginPage);

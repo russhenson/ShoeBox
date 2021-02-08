@@ -13,6 +13,9 @@ var featured=[];
 var newArrivals=[]
 var isChosen = true;
 
+var brands=["ADIDAS", "AIR JORDAN", "NEW BALANCE", "NIKE", "YEEZY"];
+var colors=["BLACK","BROWN","CAMO","FUCHSIA","GREEN","GREY","INDIGO","LIGHT BLUE","LIGHT BROWN","MAROON","NAVY","PINK","RED","WHITE","YELLOW"]
+
 //export function called render_all which returns all items in database
 exports.render_frontPage = function(req, res){
     Shoe.find({}).lean().exec(function(err, shoes){
@@ -69,8 +72,35 @@ exports.getSearchPage = function(req, res){
 
 //search result
 exports.getSearchResult = function(req, res){
-    console.log(req.body.searchWord)
-    res.render("searchresults.hbs");
+    // console.log(req.body.search);
+    var searchTerm = req.body.search;
+    var searchResults = [];
+
+    if(brands.includes(searchTerm.toUpperCase())){
+        Shoe.find({brand:{$regex:searchTerm,$options: "i"}}).lean().exec(function(err, shoes){
+            shoes.forEach(shoe => {
+                searchResults.push(shoe);
+            });
+            res.render("searchresults.hbs", {result: searchResults});
+        })
+    }
+    else if(colors.includes(searchTerm.toUpperCase())){
+        Shoe.find({Color:{$regex:searchTerm,$options: "i"}}).lean().exec(function(err, shoes){
+            shoes.forEach(shoe=>{
+                searchResults.push(shoe)
+            })
+            res.render("searchresults.hbs", {result: searchResults});
+        })
+    }
+    else{
+        Shoe.find({name:{$regex:searchTerm,$options: "i"}}).lean().exec(function(err, shoes){
+            shoes.forEach(shoe=>{
+                searchResults.push(shoe)
+            })
+            res.render("searchresults.hbs", {result: searchResults});
+        })
+    }
+
 }
 
 //login
