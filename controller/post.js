@@ -69,6 +69,7 @@ exports.getSearchPage = function(req, res){
 
 //search result
 exports.getSearchResult = function(req, res){
+    console.log(req.body.searchWord)
     res.render("searchresults.hbs");
 }
 
