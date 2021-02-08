@@ -24,30 +24,13 @@ exports.getCart = function(req, res){
 
     if(req.session.cartItems)
         cartItems = req.session.cartItems;
-    var currCart = [];
+    
+    //var currCart = [];
 
-    for(let i=0; i<cartItems.length; i++){
-        Shoe.findOne({_id: cartItems[i]}).lean.exec(function(err, shoe){
-            currCart.push(shoe);
-        })
-    }
+        //console.log(currCart);
+        console.log(cartItems);
+        res.render("shoppingcart.hbs", {product: cartItems})
 
-    var loop = new Promise((resolve, reject)=>{
-        cartItems.forEach((value, index, array) => {
-            Shoe.findOne({_id: value.id}).lean().exec(function(err, shoe){
-                // console.log(shoe);
-                currCart.push(shoe);
-                // console.log(currCart);
-            })
-            if(index == array.length-1){
-                console.log(currCart);
-                resolve();
-            }
-        })
-    }).then(()=>{
-        console.log(currCart)
-        res.render("shoppingcart.hbs", {product: currCart})
-    })
 }
 
 exports.checkout = function(req, res){
@@ -58,13 +41,23 @@ exports.addToCart = function(req, res){
     var cartItems = [];
     console.log(req.body);
     let productID = req.body.productID;
+    let productNickname = req.body.productNickname;
+    let productPrice = req.body.productPrice;
+    let productColor = req.body.productColor;
+    let productSize = req.body.productSize;
+    let productImg = req.body.productImg
 
     req.session.cartItems = req.session.cartItems ? req.session.cartItems : [];
     cartItemsCount = req.session.cartItems.length;
     req.session.total = req.session.total ? req.session.total : 0;
 
     req.session.cartItems.push({
-        "id": productID
+        "id": productID,
+        "nickname": productNickname,
+        "price": productPrice,
+        "color": productColor,
+        "size": productSize,
+        "image": productImg
     })
 
     console.log(req.session.cartItems);

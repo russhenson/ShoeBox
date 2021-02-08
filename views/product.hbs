@@ -52,6 +52,11 @@
                 {{!-- <button class="add-cart-btn text-uppercase">Add to Cart</button> --}}
                 <form action="/user/addToCart" method="post">
                     <input type="hidden" value="{{_id}}" name="productID"></input>
+                    <input type="hidden" value="{{nickname}}" name="productNickname"></input>
+                    <input type="hidden" value="{{price}}" name="productPrice"></input>
+                    <input type="hidden" value="{{color}}" name="productColor"></input>
+                    <input type="hidden" value="{{size}}" name="productSize"></input>
+                    <input type="hidden" value="{{imageSrc}}" name="productImg"></input>
                     <input type="submit" value="ADD TO CART" name="addToCartButton" class="add-cart-btn text-uppercase"></input>
                 </form>
                 <form action="/user/addtowishlist" method="post">

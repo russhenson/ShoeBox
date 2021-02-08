@@ -155,6 +155,7 @@ exports.getProduct = function(req, res){
         shoe.price = commaSeparator(shoe.price)
         console.log(shoe);
         // console.log(selectedProduct._id);
-        res.render("product.hbs", {name:shoe.name, brand: shoe.brand, price: shoe.price, _id: shoe._id, imageSrc: shoe.image[0]});
+        console.log(shoe)
+        res.render("product.hbs", {name:shoe.name, brand: shoe.brand, price: shoe.price, _id: shoe._id, imageSrc: shoe.image[0], nickname: shoe.nickname, color: shoe.Color});
     })
 }

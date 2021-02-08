@@ -65,11 +65,11 @@
                     </div> --}}
                 {{#each product}}
                     <div class="shopping-cart-item row">
-                        <img class="shopping-cart-item-img col-3" src="/Nike_Products/vaporwaffle1.png" alt="item1">
+                        <img class="shopping-cart-item-img col-3" src="/{{image}}" alt="item1">
                         <div class="shopping-cart-item-desc h-100 col-3">
-                            <h5>VaporWaffle Sacai</h5>
-                            <h6>Fuchsia</h6>
-                            <h6>Size 12</h6>
+                            <h5>{{nickname}}</h5>
+                            <h6>{{color}}</h6>
+                            <h6>{{size}}</h6>
                         </div>
                         <div class="shopping-cart-item-quantity h-100 col-3">
                             <h6>Quantity</h6>
@@ -78,7 +78,7 @@
                             <button class="btn plus-qty"><img src="icons/plus.svg" alt=""></button>
                         </div>
                         <div class="shopping-cart-item-price h-100 col-2">
-                            <h5 class="text-uppercase">27,900 PHP</h5>
+                            <h5 class="text-uppercase">{{price}} PHP</h5>
                         </div>
                         <div class="shopping-cart-item-remove h-100 col-1">
                             <img src="/icons/x.svg" alt="remove">
