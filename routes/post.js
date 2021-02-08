@@ -27,6 +27,9 @@ post_routes.get("/jordan", post.getJordan);
 //all yeezy shoes
 post_routes.get("/yeezy", post.getYeezy);
 
+//all brands
+post_routes.get("/allbrands", post.getAllBrands);
+
 //show product
 post_routes.get("/product/:_id", post.getProduct);
 

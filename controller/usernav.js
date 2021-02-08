@@ -26,6 +26,12 @@ exports.getCart = function(req, res){
         cartItems = req.session.cartItems;
     var currCart = [];
 
+    for(let i=0; i<cartItems.length; i++){
+        Shoe.findOne({_id: cartItems[i]}).lean.exec(function(err, shoe){
+            currCart.push(shoe);
+        })
+    }
+
     var loop = new Promise((resolve, reject)=>{
         cartItems.forEach((value, index, array) => {
             Shoe.findOne({_id: value.id}).lean().exec(function(err, shoe){

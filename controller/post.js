@@ -134,6 +134,18 @@ exports.getYeezy = function(req, res){
     })
 }
 
+exports.getAllBrands = function(req, res){
+    let shoesArray=[];
+    Shoe.find().lean().exec(function(err, shoes){
+        shoes.forEach(shoe =>{
+            shoe.price = commaSeparator(shoe.price);
+            shoesArray.push(shoe);
+        });
+        console.log(shoesArray);
+        res.render("allbrands.hbs", {shoe: shoesArray})
+    })
+}
+
 exports.getProduct = function(req, res){
     let productId = req.params['_id'];
     Shoe.findOne({_id: productId}).lean().exec(function(err, shoe){
