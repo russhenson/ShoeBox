@@ -10,21 +10,19 @@
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-    <title>Nike</title>
+    <title>All Brands</title>
 </head>
 <body>
-    {{!-- <div id="navbar">
-    </div> --}}
-
-    {{> header}}
-    {{!-- <script src="../controller/nav.js"></script> --}}
+    <div id="navbar">
+    </div>
+    <script src="../controller/nav.js"></script>
 
     <div class="brand-desc-container">
         <h4 class="text-uppercase brand-title">
-            Nike
+            All brands
         </h4>
         <p class="brand-description">
-            In 1964, founders Bill Bowerman and Phil Knight turned their Blue Ribbon Sports venture into the Nike we know today. With roots in the University of Oregon's running team, Knight and Bowerman launched Nike and built the Swoosh into a high-profile brand synonymous with sneakers, athletic apparel, and the sports lifestyle, with help from the Air Jordan line along the way. From running to basketball to skating, some of the world's greatest athletes wear Nike footwear, helping to cement a legacy that has advanced and innovated sneaker culture for decades.
+            Find all your favorites at ShoeBox. Shop the latest and greatest releases from Nike, Jordan, Adidas, Yeezy and New Balance.
         </p>
     </div>
 
@@ -33,6 +31,15 @@
             <h5 class="text-uppercase">Filter</h5>
 
             <div class="filter-options">
+                <div class="filter-model">
+                    <div class="filter-option">
+                        <h6 class="text-uppercase">Model</h6>
+                        <img src="icons/chevron-down.svg" alt="down">
+                    </div>
+                    <div class="filter-content">
+
+                    </div>
+                </div>
                 <div class="filter-color">
                     <div class="filter-option">
                         <h6 class="text-uppercase">Color</h6>
@@ -60,6 +67,7 @@
 
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -74,46 +82,13 @@
 
             <div class="result-products">
                 <div class="product-cards row">
-                    {{#each nike}}
-                        <a class="product-card" href="/product/{{_id}}">
-                            <div>
-                                <img class="product-img" src="{{image.[0]}}" alt="presto">
-                                <h6 class="product-brand">{{brand}}</h6>
-                                <h5 class="product-name">{{nickname}}</h5>
-                                <h5 class="product-price text-uppercase">{{price}} PHP</h5>
-                            </div>
-                        </a>
-                    {{/each}}
-                    {{!-- <div class="product-card">
-                        <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                        <h6 class="product-brand">Nike</h6>
-                        <h5 class="product-name">Air Presto Off-White</h5>
-                        <h5 class="product-price text-uppercase">39,000 PHP</h5>
-                    </div>
                     <div class="product-card">
                         <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
                         <h6 class="product-brand">Nike</h6>
                         <h5 class="product-name">Air Presto Off-White</h5>
                         <h5 class="product-price text-uppercase">39,000 PHP</h5>
                     </div>
-                    <div class="product-card">
-                        <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                        <h6 class="product-brand">Nike</h6>
-                        <h5 class="product-name">Air Presto Off-White</h5>
-                        <h5 class="product-price text-uppercase">39,000 PHP</h5>
-                    </div>
-                    <div class="product-card">
-                        <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                        <h6 class="product-brand">Nike</h6>
-                        <h5 class="product-name">Air Presto Off-White</h5>
-                        <h5 class="product-price text-uppercase">39,000 PHP</h5>
-                    </div>
-                    <div class="product-card">
-                        <img class="product-img" src="Nike_Products/presto1.png" alt="presto">
-                        <h6 class="product-brand">Nike</h6>
-                        <h5 class="product-name">Air Presto Off-White</h5>
-                        <h5 class="product-price text-uppercase">39,000 PHP</h5>
-                    </div> --}}
+                    
                 </div>
             </div>
             
@@ -124,9 +99,7 @@
 
     <div id="footer">
     </div>
-
-    {{> footer}}
-    {{!-- <script src="../controller/footer.js"></script> --}}
+    <script src="../controller/footer.js"></script>
 
 
     <!--BOOTSTRAP-->
